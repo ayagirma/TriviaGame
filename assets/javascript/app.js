@@ -100,7 +100,7 @@ $(document).ready(function(){
    function displayTrivia(){
    	$("#questions").html(displayGame[0].question);
 
-   }
+   };
 
 	
       
