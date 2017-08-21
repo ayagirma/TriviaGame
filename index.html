@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Totaly Trivial trivia!</title>
+	<link rel="stylesheet" type="text/css" href="">
+		<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<meta name="viewport" content ="width=device-width">
+</head>
+<body>
+	
+	 <div class="container">
+ 	
+ 	  <div class="jumbotron" style="background-color: #00ff80; color: blue;">
+ 	     
+ 	     <div class="container">
+			     
+			  <h1 class="text-center"><strong>Totally Trivial Trivia!</strong></h1>
+   
+				<div class="btn-group">
+				  
+	              <button class="bstn btn-start startButton" style="background-color: #dab4b4; border-color: blue; width: 200px; height: 50px; font-size: 36px; position: center; color: bold white">Start</button> 
+	             </div>
+
+             <div id="element"> </div>
+                 <p id="timer">Time Remaining:</p>
+
+		     <div class= "row">
+		          
+		         <div class = "questions"><p> Who is the richest person in the world?</p></div>
+
+		      </div>
+		      <div class= "row">
+		      	<div class="col-sm-offset-1 col-sm-8">
+		      	<form>
+		      		<div class="radio">
+
+		      			<label><input type="radio" name=" question1" value="0">
+		      			Bill Gates </label>		      			
+		      		</div>
+		      		<div class="radio">
+		      			<label><input type="radio" name=" question1" value="0">
+		      			Warren Buffett</label>		      			
+		      		</div>
+		      		 <div class="radio">
+		      			<label><input type="radio" name=" question1" value="0">
+		      			Mark Suckerberg</label>		      			
+		      		</div>
+		      		<div class="radio">
+		      			<label><input type="radio" name=" question1" value="1">
+		      			Larry Ellison</label>
+
+		      		</div>
+		      		</form>
+		      	</div>
+		      	
+		      </div>
+		    <div class= "row">
+		          
+		         <div class = "questions"><p> what is 3+5 = ?</p></div>
+
+		      </div>
+		    <div class= "row">
+		      	<div class="col-sm-offset-1 col-sm-8">
+		      	<form>
+		      		<div class="radio">
+
+		      			<label><input type="radio" name=" question3" value="0">
+		      			8 </label>		      			
+		      		</div>
+		      		<div class="radio">
+		      			<label><input type="radio" name=" question3" value="0">
+		      			6</label>		      			
+		      		</div>
+		      		 <div class="radio">
+		      			<label><input type="radio" name=" question3" value="0">
+		      			5</label>		      			
+		      		</div>
+		      		<div class="radio">
+		      			<label><input type="radio" name=" question3" value="1">
+		      			1</label>
+
+		      		</div>
+		      		</form>
+		      	</div>
+		      	
+		      </div>
+		    <div class= "row">
+		          
+		         <div class = "questions"><p>what is the capital city of Ethiopia?</p></div>
+
+		      </div>
+		    <div class= "row">
+		      	<div class="col-sm-offset-1 col-sm-8">
+		      	<form>
+		      		<div class="radio">
+
+		      			<label><input type="radio" name=" question3" value="0">
+		      			Gonder </label>		      			
+		      		</div>
+		      		<div class="radio">
+		      			<label><input type="radio" name=" question3" value="0">
+		      			Mekele</label>		      			
+		      		</div>
+		      		 <div class="radio">
+		      			<label><input type="radio" name=" question3" value="0">
+		      			Awasa</label>		      			
+		      		</div>
+		      		<div class="radio">
+		      			<label><input type="radio" name=" question3" value="1">
+		      			Addis Abeba</label>
+
+		      		</div>
+		      		</form>
+		      	</div>
+		      	
+		      </div>
+
+        
+
+
+		  <button class="bstn btn-start doneButton" style="background-color: #dab4b4; border-color: blue; width: 100px; height: 40px; font-size: 36px; position: center;">Done</button> 
+
+
+		  <p id = "correctAnswer"></p>
+		  <p id = "incorrectAnswer"></p>
+		  <p id = "unAnswer"></p>
+
+</div>
+		      <!-- <div class= "row">
+		          <div>
+		             <h2 class = "subtraction"></h2>
+		             what is 450-444 ?
+		          </div>
+		      </div>
+		      <div class= "row">
+		          <div>
+		             <h2 class = "multiplication"></h2>
+		             what is 450*440 ?
+		          </div>
+		      </div>
+		      <div class= "row">
+		          <div>
+		             <h2 class = "division"></h2>
+		             what is 450/444 ?
+		          </div>
+		      </div>
+		       <div class= "row">
+		          <div>
+		             <h2 class = "multiplication"></h2>
+		             what is 450*440 ?
+		          </div>
+		      </div> -->
+		      
+
+
+
+
+
+
+
+	              <!-- 	<div class = "col-md-12">
+              		<div id="question1"> <h2>what is the capital city of Ethiopia?</h> </div>
+              	</div>
+              	<<div class = "col-md-12">
+              		<div id="question1"> <h1>what is the capital city of Ethiopia?</h1> </div>
+              	</div>
+              	<div class = "col-md-12">
+              		<div id="question1"> <h1>what is the capital city of Ethiopia?</h1> </div>
+              	</div>
+              	<div class = "col-md-12">
+              		<div id="question1"> <h1>what is the capital city of Ethiopia?</h1> </div>
+              	</div>
+              	<div class = "col-md-12">
+              		<div id="question1"> <h1>what is the capital city of Ethiopia?</h1> </div>
+              	</div> -->
+              <!-- <div> Radiobutton </div>
+ -->
+         </div> 
+
+		</div>
+     </div>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="assets/javascript/app.js"></script>
+</body>
+</html>
